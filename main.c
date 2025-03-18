@@ -3,8 +3,8 @@
 
 int main()
 {
-    int const x(5);
-    printf("Voici un calcul : %d", x+fonction());
+    int x = 5;
+    printf("Voici un calcul : %d \n", x+fonction());
 
     return 0;
 }
